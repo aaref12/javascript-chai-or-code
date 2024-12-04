@@ -5,15 +5,21 @@
     
     <title>basic dom in javascript</title>
 </head>
-<body>
-    <h1 id="title"> my name is shaikh</h1>
-    <div>
-        <p>my name is shaih aaref hamza </p>
-        <ul>
-            <li>one</li>
-            <li>two</li>
-            <li>three</li>
-        </ul>
+<body style="background-color: gray; color: white;">
+    <div class="parent">
+        <div>
+            <div class="day">MONDAY</div>
+            <div class="day">TEUSDAY</div>
+            <div class="day">WEDNESDAY</div>
+            <div class="day">THURSDAY</div>
+        </div>
     </div>
 </body>
+<script>
+ const parent=document.querySelector(".parent")
+ console.log(parent)
+ //console.log(parent.children)
+ let firstchild=document.querySelector("div").firstChild
+ console.log(firstchild)
+</script>
 </html>
